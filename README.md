@@ -1,9 +1,7 @@
-# Repository template
+# ASCIINEMA Gif Generator AGG
 
-## Features
+## How to
 
-The repository is spawned with
-
-* Renovate config file
-* Super Linter that runs on every push
-* Checkov that runs on PR or push on Main when in /terraform or workflow file
+```sh
+docker run --rm -v `pwd`:/workdir ghcr.io/ducretje/agg:latest <FILENAME>
+```
