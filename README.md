@@ -1,9 +1,9 @@
-# Repository template
+# ASCIINEMA GIF Generator AGG
 
-## Features
+This repository builds a Docker image of [ASCIINEMA GIF Generator (agg)](https://github.com/asciinema/agg/tree/main).
 
-The repository is spawned with
+## How to
 
-* Renovate config file
-* Super Linter that runs on every push
-* Checkov that runs on PR or push on Main when in /terraform or workflow file
+```sh
+docker run --rm -v `pwd`:/workdir ghcr.io/ducretje/agg:latest <FILENAME>
+```
