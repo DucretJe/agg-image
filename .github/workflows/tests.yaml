@@ -52,6 +52,9 @@ jobs:
           cache-to: type=gha,mode=max
           tags: ghcr.io/ducretje/agg:test-${{ steps.prep.outputs.tag }}
 
+      - name: 🛠️ Set permissions
+        run: chmod -R 777 ./tests
+
       - name: 🧪 Build and test the image
         run: make all IMAGE_NAME=ghcr.io/ducretje/agg:test-${{ steps.prep.outputs.tag }}
         working-directory: ./tests
