@@ -1,4 +1,4 @@
-# ASCIINEMA Gif Generator AGG
+# ASCIINEMA GIF Generator AGG
 
 ## How to
 
