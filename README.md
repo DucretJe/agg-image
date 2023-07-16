@@ -9,3 +9,7 @@ This repository builds a Docker image of [ASCIINEMA GIF Generator (agg)](https:/
 ```sh
 docker run --rm -v `pwd`:/workdir ghcr.io/ducretje/agg:latest <FILENAME>
 ```
+
+It will create a new file at the same name and location than the input file replacing the `.cast` extention by `.gif`.
+
+> For now it only contains one Nerd Font: Hack, but you can mount yours in `/home/agg/.local/share/fonts`. If you want to use `agg` to be able to add some options, you will have to change the entrypoint to `agg`
