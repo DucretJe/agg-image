@@ -3,6 +3,15 @@
   "extends": [
     "github>ducretje/renovate"
   ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ]
+    }
+  ],
   "regexManagers": [
     {
       "fileMatch": [
