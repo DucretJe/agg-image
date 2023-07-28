@@ -26,7 +26,7 @@ RUN wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hac
     unzip -q /tmp/Hack.zip -d /usr/share/fonts && \
     rm /tmp/Hack.zip
 
-FROM debian:bookworm-slim@sha256:9bd077d2f77c754f4f7f5ee9e6ded9ff1dff92c6dce877754da21b917c122c77
+FROM debian:bookworm-slim@sha256:89468107e4c2b9fdea2f15fc582bf92c25aa4296a661ca0202f7ea2f4fc3f48c
 
 COPY --from=builder /usr/local/cargo/bin/agg /usr/local/bin/agg
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
