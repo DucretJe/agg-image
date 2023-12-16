@@ -2,7 +2,7 @@ FROM rust:slim-bookworm@sha256:89e1efffc83a631bced1bf86135f4f671223cc5dc32ebf26e
 
 # GitHub Release (Renovate handled)
 ENV AGG_VER v1.4.3
-ENV NERDFONTS_VER v3.0.2
+ENV NERDFONTS_VER v3.1.1
 
 # Packages versions (Renovate handled)
 # renovate: datasource=repology depName=debian_12/unzip versioning=loose
