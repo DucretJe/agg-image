@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: 🧹 Delete old packages
-        uses: actions/delete-package-versions@v4
+        uses: actions/delete-package-versions@v5
         with:
           package-name: 'agg'
           package-type: 'container'
