@@ -1,7 +1,7 @@
 FROM rust:slim-bookworm@sha256:0a694b60da1de10034671091330d628c88af06f9ea0cc87c654d5bc4b6c7e538 as builder
 
 # GitHub Release (Renovate handled)
-ENV AGG_VER v1.5.0
+ENV AGG_VER v1.6.0
 ENV NERDFONTS_VER v3.4.0
 
 # Packages versions (Renovate handled)
