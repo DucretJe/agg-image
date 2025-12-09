@@ -1,4 +1,4 @@
-FROM rust:slim-bookworm@sha256:7ef0781beb6f5b7d1647a19c6234a32e16758398cd597b7f8631f93349277f5d as builder
+FROM rust:slim-bookworm@sha256:8514999d4786ef12efe89239e86b3d0a021b94b9d35108c8efe6c79ca7dc1a65 as builder
 
 # GitHub Release (Renovate handled)
 ENV AGG_VER v1.7.0
